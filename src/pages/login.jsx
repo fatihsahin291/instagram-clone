@@ -1,5 +1,12 @@
-function login() {
-	return <div></div>;
+import "../styles/Login.css";
+import LoginBox from "../components/LoginBox";
+
+function Login() {
+	return (
+		<div className="login">
+			<LoginBox />
+		</div>
+	);
 }
 
-export default login;
+export default Login;
