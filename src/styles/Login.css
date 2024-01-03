@@ -32,8 +32,8 @@
 
 .login-form {
 	width: 100%;
-	max-width: 450px;
-	padding: 40px;
+	max-width: 350px;
+	/* padding: 40px; */
 	border-radius: 10px;
 	gap: 20px;
 	display: flex;
