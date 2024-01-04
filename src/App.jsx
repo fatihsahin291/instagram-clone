@@ -7,6 +7,7 @@ import {
 
 import PageNotFound from "./pages/PageNotFound";
 import Login from "./pages/login";
+import ForyouPage from "./appLayout/ForyouPage";
 
 function App() {
 	return (
@@ -16,6 +17,11 @@ function App() {
 					<Route
 						path="/login"
 						element={<Login />}
+					/>
+
+					<Route
+						path="/"
+						element={<ForyouPage />}
 					/>
 
 					<Route

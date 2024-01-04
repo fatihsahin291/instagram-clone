@@ -4,6 +4,9 @@
 @import url(./styles/login/LoginBox.scss);
 @import url(./styles/login/LoginFooter.scss);
 
+@import url(./styles/for-you-page/ForYouPage.scss);
+@import url(./styles/for-you-page/SideBar.scss);
+
 *,
 *::after,
 *::before {
@@ -14,4 +17,71 @@
 		BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans",
 		"Helvetica Neue", sans-serif;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+/* For Light Mode */
+
+:root {
+	&,
+	&.light-mode {
+		--primary-color: #f1f1f1;
+		--secondary-color: #fafafa;
+		--tertiary-color: #fff;
+		--text-color: #000;
+		--text-color-light: #555;
+		--text-color-lighter: #888;
+		--text-color-lightest: #ccc;
+		--text-color-dark: #333;
+		--text-color-darker: #222;
+		--text-color-darkest: #111;
+	}
+
+	&.dark-mode {
+		--primary-color: #222;
+		--secondary-color: #333;
+		--tertiary-color: #000;
+		--text-color: #fff;
+		--text-color-light: #ccc;
+		--text-color-lighter: #888;
+		--text-color-lightest: #555;
+		--text-color-dark: #fafafa;
+		--text-color-darker: #f1f1f1;
+		--text-color-darkest: #fff;
+	}
+
+	--text-color-primary: #3f51b5;
+	--text-color-secondary: #f50057;
+	--text-color-tertiary: #ff9800;
+	--text-color-quaternary: #4caf50;
+	--text-color-quinary: #2196f3;
+	--text-color-senary: #9c27b0;
+	--text-color-septenary: #00bcd4;
+	--text-color-octonary: #795548;
+	--text-color-nonary: #607d8b;
+	--text-color-denary: #e91e63;
+	--text-color-eleventh: #ffeb3b;
+	--text-color-twelfth: #ff5722;
+	--text-color-thirteenth: #cddc39;
+	--text-color-fourteenth: #ffc107;
+	--text-color-fifteenth: #9e9e9e;
+	--text-color-sixteenth: #03a9f4;
+	--text-color-seventeenth: #673ab7;
+	--text-color-eighteenth: #8bc34a;
 }

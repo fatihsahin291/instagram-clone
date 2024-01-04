@@ -1,0 +1,10 @@
+@import url(./SideBar.scss);
+
+.for-you-page {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: var(--secondary-color);
+}
