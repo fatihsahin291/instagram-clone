@@ -1,4 +1,3 @@
-import "../styles/LoginBox.css";
 import { useForm } from "react-hook-form";
 import { IoLogoFacebook } from "react-icons/io";
 

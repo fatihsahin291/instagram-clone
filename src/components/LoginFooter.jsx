@@ -1,5 +1,3 @@
-import "../styles/LoginFooter.css";
-
 function LoginFooter() {
 	return (
 		<footer className="login-footer">
