@@ -12,24 +12,26 @@ import ForyouPage from "./appLayout/ForyouPage";
 function App() {
 	return (
 		<>
-			<BrowserRouter>
-				<Routes>
-					<Route
-						path="/login"
-						element={<Login />}
-					/>
+			<div className="mode dark-mode">
+				<BrowserRouter>
+					<Routes>
+						<Route
+							path="/login"
+							element={<Login />}
+						/>
 
-					<Route
-						path="/"
-						element={<ForyouPage />}
-					/>
+						<Route
+							path="/"
+							element={<ForyouPage />}
+						/>
 
-					<Route
-						path="*"
-						element={<PageNotFound />}
-					/>
-				</Routes>
-			</BrowserRouter>
+						<Route
+							path="*"
+							element={<PageNotFound />}
+						/>
+					</Routes>
+				</BrowserRouter>
+			</div>
 		</>
 	);
 }

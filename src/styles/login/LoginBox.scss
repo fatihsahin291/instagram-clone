@@ -114,11 +114,22 @@
 			}
 		}
 	}
+
+	.forgot-password a {
+		text-decoration: none;
+		color: #000;
+		font-weight: 400;
+		font-size: 12px;
+	}
 }
 
-.forgot-password a {
-	text-decoration: none;
-	color: #000;
-	font-weight: 400;
-	font-size: 12px;
+@mixin login-box-bg-img {
+	background-position: 0px 0px;
+	background-size: 176px 264px;
+	width: 174px;
+	height: 50px;
+	margin-bottom: 40px;
+	background-image: url("../../assets/login/login-box-title.png");
+	background-repeat: no-repeat;
+	display: inline-block;
 }
